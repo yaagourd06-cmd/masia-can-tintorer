@@ -1,0 +1,134 @@
+{
+  "season": { "ca": "Carta d’hivern 2026–2027", "es": "Carta de invierno 2026–2027" },
+  "vatNote": { "ca": "10% d’IVA inclòs", "es": "10% de IVA incluido" },
+  "allergenNote": {
+    "ca": "Tens alguna al·lèrgia o intolerància? Fes-ho saber al personal abans de demanar i t’informarem de cada plat.",
+    "es": "¿Tienes alguna alergia o intolerancia? Avisa al personal antes de pedir y te informaremos de cada plato."
+  },
+  "sections": [
+    {
+      "id": "entrants",
+      "title": { "ca": "Entrants", "es": "Entrantes" },
+      "groups": [
+        {
+          "title": { "ca": "Verdura de l’hort", "es": "Verdura de la huerta" },
+          "items": [
+            { "name": { "ca": "Teula de calçots", "es": "Teja de calçots" }, "price": 16 },
+            { "name": { "ca": "Carxofes a la brasa", "es": "Alcachofas a la brasa" }, "price": 14.75 },
+            { "name": { "ca": "Xips de carxofa", "es": "Chips de alcachofa" }, "price": 16 },
+            { "name": { "ca": "Flor de carxofa confitada", "es": "Flor de alcachofa confitada" }, "desc": { "ca": "a baixa temperatura, amb encenalls de pernil", "es": "a baja temperatura, con virutas de jamón" }, "price": 15 },
+            { "name": { "ca": "Mini favetes saltejades", "es": "Mini habitas salteadas" }, "desc": { "ca": "amb pernil ibèric i ou ferrat de guatlla", "es": "con jamón ibérico y huevo frito de codorniz" }, "price": 18 }
+          ]
+        },
+        {
+          "title": { "ca": "Freds i calents", "es": "Fríos y calientes" },
+          "items": [
+            { "name": { "ca": "Pernil ibèric d’aglà 100%", "es": "Jamón ibérico de bellota 100%" }, "desc": { "ca": "espatlla", "es": "paleta" }, "price": 24 },
+            { "name": { "ca": "Foie d’ànec mi-cuit", "es": "Foie de pato mi-cuit" }, "price": 19 },
+            { "name": { "ca": "Assortiment d’embotits ibèrics", "es": "Surtido de embutidos ibéricos" }, "price": 19.75 },
+            { "name": { "ca": "Amanida especial de la casa", "es": "Ensalada especial de la casa" }, "desc": { "ca": "amb ventresca", "es": "con ventresca" }, "price": 13 },
+            { "name": { "ca": "Assortiment de croquetes", "es": "Surtido de croquetas" }, "desc": { "ca": "2 de calçot, 2 de pernil ibèric, 2 de xipirons", "es": "2 de calçot, 2 de jamón ibérico, 2 de chipirones" }, "price": 15 },
+            { "name": { "ca": "Croquetes de chuletón", "es": "Croquetas de chuletón" }, "desc": { "ca": "4 unitats", "es": "4 unidades" }, "price": 16 },
+            { "name": { "ca": "Lacón amb pebre vermell", "es": "Lacón con pimentón" }, "desc": { "ca": "flor de sal i AOVE", "es": "flor de sal y AOVE" }, "price": 15 },
+            { "name": { "ca": "Trinxat de la Cerdanya", "es": "Trinxat de la Cerdanya" }, "price": 16 },
+            { "name": { "ca": "Graellada de verdures", "es": "Parrillada de verduras" }, "desc": { "ca": "albergínia, patata al caliu, tomàquet, pebrot, gírgola i carbassó", "es": "berenjena, patata al rescoldo, tomate, pimiento, seta de cardo y calabacín" }, "price": 12 }
+          ]
+        },
+        {
+          "title": { "ca": "Els clàssics de la casa", "es": "Los clásicos de la casa" },
+          "items": [
+            { "name": { "ca": "Canelons de la iaia", "es": "Canelones de la abuela" }, "price": 13 },
+            { "name": { "ca": "Escalivada amb anxoves de l’Escala", "es": "Escalivada con anchoas de L’Escala" }, "price": 14 },
+            { "name": { "ca": "Escudella barrejada", "es": "Escudella barrejada" }, "price": 13 },
+            { "name": { "ca": "Cap i pota amb cigrons", "es": "Cap i pota con garbanzos" }, "price": 16 },
+            { "name": { "ca": "Cargols al gust", "es": "Caracoles al gusto" }, "desc": { "ca": "a la masia o a la llauna (15 min)", "es": "a la masía o a la llauna (15 min)" }, "price": 16.5 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peix",
+      "title": { "ca": "El peix", "es": "El pescado" },
+      "groups": [
+        {
+          "items": [
+            { "name": { "ca": "Morro de bacallà a l’estil del xef", "es": "Morro de bacalao al estilo del chef" }, "price": 22 },
+            { "name": { "ca": "Calamars a l’andalusa", "es": "Calamares a la andaluza" }, "desc": { "ca": "de platja, frescos", "es": "de playa, frescos" }, "price": 19.75 },
+            { "name": { "ca": "Llagostins al brandy", "es": "Langostinos al brandy" }, "desc": { "ca": "amb crema de marisc", "es": "con crema de marisco" }, "price": 28 },
+            { "name": { "ca": "Salmó noruec a la planxa", "es": "Salmón noruego a la plancha" }, "price": 18 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carn",
+      "title": { "ca": "La carn", "es": "La carne" },
+      "groups": [
+        {
+          "title": { "ca": "Brasa i graella", "es": "Brasa y parrilla" },
+          "items": [
+            { "name": { "ca": "Mitjana de vaca «Txuletón»", "es": "Chuletón de vaca" }, "desc": { "ca": "1,100 kg", "es": "1,100 kg" }, "price": 75 },
+            { "name": { "ca": "Entrecot de vaca", "es": "Entrecot de vaca" }, "desc": { "ca": "maduració 30 dies · 0,500 kg", "es": "maduración 30 días · 0,500 kg" }, "price": 28 },
+            { "name": { "ca": "Entrecot de vaca a la brasa", "es": "Entrecot de vaca a la brasa" }, "price": 19.75 },
+            { "name": { "ca": "Entrecot de vaca al gust", "es": "Entrecot de vaca al gusto" }, "desc": { "ca": "pebre o roquefort", "es": "pimienta o roquefort" }, "price": 22.75 },
+            { "name": { "ca": "Filet de vedella a la brasa", "es": "Solomillo de ternera a la brasa" }, "price": 23 },
+            { "name": { "ca": "Filet de vedella al gust", "es": "Solomillo de ternera al gusto" }, "desc": { "ca": "pebre o roquefort", "es": "pimienta o roquefort" }, "price": 24.75 },
+            { "name": { "ca": "Botifarra amb mongetes del ganxet", "es": "Butifarra con judías del ganxet" }, "price": 13.75 },
+            { "name": { "ca": "1/4 de pollastre a la brasa", "es": "1/4 de pollo a la brasa" }, "price": 13.75 },
+            { "name": { "ca": "Xai a la brasa", "es": "Cordero a la brasa" }, "desc": { "ca": "costella o mitjana", "es": "costilla o chuleta" }, "price": 21.75 },
+            { "name": { "ca": "Graellada de carn", "es": "Parrillada de carne" }, "desc": { "ca": "botifarra negra i blanca, 1/4 de pollastre i costella o mitjana de xai", "es": "butifarra negra y blanca, 1/4 de pollo y costilla o chuleta de cordero" }, "price": 24 },
+            { "name": { "ca": "Conillet lletó a la brasa", "es": "Gazapo a la brasa" }, "desc": { "ca": "peça sencera", "es": "pieza entera" }, "price": 21 },
+            { "name": { "ca": "Secret ibèric 100% d’aglà", "es": "Secreto ibérico 100% de bellota" }, "price": 22 },
+            { "name": { "ca": "Peus de porc al gust", "es": "Manitas de cerdo al gusto" }, "desc": { "ca": "guisats amb bolets o a la brasa", "es": "guisadas con setas o a la brasa" }, "price": 17 }
+          ]
+        },
+        {
+          "title": { "ca": "Del forn de llenya", "es": "Del horno de leña" },
+          "items": [
+            { "name": { "ca": "Espatlleta de cabrit al forn de llenya", "es": "Paletilla de cabrito al horno de leña" }, "price": 28 },
+            { "name": { "ca": "Garrinet al forn de llenya", "es": "Cochinillo al horno de leña" }, "price": 28 },
+            { "name": { "ca": "1/2 espatlla de xai al forn de llenya", "es": "1/2 paletilla de cordero al horno de leña" }, "desc": { "ca": "ternasco", "es": "ternasco" }, "price": 21 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "title": { "ca": "Les postres", "es": "Los postres" },
+      "groups": [
+        {
+          "items": [
+            { "name": { "ca": "Mel i mató", "es": "Mel i mató" }, "price": 6.5 },
+            { "name": { "ca": "Crema catalana", "es": "Crema catalana" }, "price": 5.75 },
+            { "name": { "ca": "Postres de músic", "es": "Postre de músico" }, "price": 7.75 },
+            { "name": { "ca": "Cheesecake casolà", "es": "Cheesecake casero" }, "price": 7.75 },
+            { "name": { "ca": "Coulant de xocolata", "es": "Coulant de chocolate" }, "price": 6.75 },
+            { "name": { "ca": "Trufes gelades", "es": "Trufas heladas" }, "price": 7.75 },
+            { "name": { "ca": "Xuxo de crema a la brasa", "es": "Xuxo de crema a la brasa" }, "desc": { "ca": "amb xocolata fosa", "es": "con chocolate fundido" }, "price": 7.5 },
+            { "name": { "ca": "Pinya natural amb crema cremada", "es": "Piña natural con crema quemada" }, "price": 7.75 },
+            { "name": { "ca": "Torrija de brioix", "es": "Torrija de brioche" }, "desc": { "ca": "amb gelat de tiramisú", "es": "con helado de tiramisú" }, "price": 6.75 },
+            { "name": { "ca": "Donut a la brasa amb gelat Itàlia", "es": "Donut a la brasa con helado Italia" }, "price": 6.75 },
+            { "name": { "ca": "Catalanet", "es": "Catalanet" }, "desc": { "ca": "gelat de torró cremat, amb carquinyolis i ratafia", "es": "helado de turrón quemado, con carquiñoles y ratafía" }, "price": 7 },
+            { "name": { "ca": "Carquinyolis amb ratafia", "es": "Carquiñoles con ratafía" }, "price": 6 },
+            { "name": { "ca": "Gelat artesà italià", "es": "Helado artesano italiano" }, "desc": { "ca": "vainilla, fruites del bosc, llimona, iogurt, tiramisú o xocolata", "es": "vainilla, frutos del bosque, limón, yogur, tiramisú o chocolate" }, "price": 6.95 },
+            { "name": { "ca": "Suc de taronja natural", "es": "Zumo de naranja natural" }, "price": 4.75 },
+            { "name": { "ca": "Cafè irlandès", "es": "Café irlandés" }, "price": 8.75 },
+            { "name": { "ca": "Valencià", "es": "Valenciano" }, "price": 7.5 }
+          ]
+        }
+      ]
+    }
+  ],
+  "extras": {
+    "title": { "ca": "Salses i extres", "es": "Salsas y extras" },
+    "items": [
+      { "name": { "ca": "Allioli", "es": "Alioli" }, "price": 2.5 },
+      { "name": { "ca": "Romesco", "es": "Romesco" }, "price": 2.5 },
+      { "name": { "ca": "Salsa roquefort", "es": "Salsa roquefort" }, "price": 3 },
+      { "name": { "ca": "Salsa de pebre", "es": "Salsa de pimienta" }, "price": 3 },
+      { "name": { "ca": "Pa de pagès torrat", "es": "Pan de payés tostado" }, "price": 1.75 },
+      { "name": { "ca": "Pa de coca d’oli «vidre»", "es": "Pan de coca de aceite «cristal»" }, "price": 2.5 },
+      { "name": { "ca": "Pa sense gluten", "es": "Pan sin gluten" }, "price": 2.25 }
+    ]
+  }
+}

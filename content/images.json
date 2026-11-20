@@ -1,0 +1,14 @@
+{
+  "_info": "Fotos d'estoc d'Unsplash (llicència Unsplash), autoallotjades a src/assets/img com a <id>-<amplada>.webp. Substituir per fotos pròpies de la masia mantenint l'id i la proporció.",
+  "widths": [640, 1024, 1600],
+  "images": {
+    "hero": { "source": "photo-1463183547458-6a2c760d0912", "ratio": [16, 9], "alt": { "ca": "Taula llarga de fusta parada amb plats de cuina tradicional", "es": "Mesa larga de madera con platos de cocina tradicional" } },
+    "masia": { "source": "photo-1782231710454-949623fe9d2e", "ratio": [4, 5], "alt": { "ca": "Masia de pedra envoltada de verd", "es": "Masía de piedra rodeada de verde" } },
+    "interior": { "source": "photo-1600093463592-8e36ae95ef56", "ratio": [4, 3], "alt": { "ca": "Menjador rústic amb taules de fusta", "es": "Comedor rústico con mesas de madera" } },
+    "brasa": { "source": "photo-1508615263227-c5d58c1e5821", "ratio": [16, 9], "alt": { "ca": "Carn a la brasa sobre el foc", "es": "Carne a la brasa sobre el fuego" } },
+    "jardi": { "source": "photo-1526069631228-723c945bea6b", "ratio": [4, 3], "alt": { "ca": "Taules sota una parra", "es": "Mesas bajo una parra" } },
+    "celebracio": { "source": "photo-1632316962873-47ee3d309f02", "ratio": [4, 5], "alt": { "ca": "Taula parada per a una celebració", "es": "Mesa preparada para una celebración" } },
+    "menjador": { "source": "photo-1688683035224-28a2d702383a", "ratio": [4, 3], "alt": { "ca": "Menjador amb taules i cadires de fusta", "es": "Comedor con mesas y sillas de madera" } }
+  },
+  "og": { "source": "photo-1463183547458-6a2c760d0912", "width": 1200, "height": 630 }
+}

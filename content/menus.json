@@ -1,0 +1,79 @@
+{
+  "menus": [
+    {
+      "id": "diari",
+      "title": { "ca": "Menú diari", "es": "Menú diario" },
+      "when": { "ca": "De dimecres a divendres", "es": "De miércoles a viernes" },
+      "price": 18,
+      "priceNote": { "ca": "IVA inclòs · begudes no incloses", "es": "IVA incluido · bebidas no incluidas" },
+      "courses": [
+        { "ca": "Primer plat a escollir, segons opcions del dia", "es": "Primer plato a elegir, según opciones del día" },
+        { "ca": "Segon plat a escollir, segons opcions del dia", "es": "Segundo plato a elegir, según opciones del día" },
+        { "ca": "Crema catalana o fruita de temporada", "es": "Crema catalana o fruta de temporada" },
+        { "ca": "Cafè o infusió", "es": "Café o infusión" }
+      ],
+      "note": { "ca": "No disponible dilluns, dimarts, caps de setmana ni festius.", "es": "No disponible lunes, martes, fines de semana ni festivos." }
+    },
+    {
+      "id": "calcotada",
+      "featured": true,
+      "title": { "ca": "La nostra calçotada", "es": "Nuestra calçotada" },
+      "when": { "ca": "Temporada de calçots", "es": "Temporada de calçots" },
+      "price": 48,
+      "priceNote": { "ca": "Amb cava i licor: 53 €", "es": "Con cava y licor: 53 €" },
+      "courses": [
+        { "ca": "Teula de calçots amb salsa romesco", "es": "Teja de calçots con salsa romesco" },
+        { "ca": "Graellada de carn", "es": "Parrillada de carne" },
+        { "ca": "Crema catalana", "es": "Crema catalana" },
+        { "ca": "Aigua, vi de la casa, cafè, copa de cava i xarrupet de licor", "es": "Agua, vino de la casa, café, copa de cava y chupito de licor" }
+      ],
+      "note": { "ca": "Opció chuletón en lloc de la graellada: +10 €/persona (mínim 2 persones).", "es": "Opción chuletón en lugar de la parrillada: +10 €/persona (mínimo 2 personas)." }
+    },
+    {
+      "id": "infantil",
+      "title": { "ca": "Menú infantil", "es": "Menú infantil" },
+      "when": { "ca": "Per als més petits", "es": "Para los más pequeños" },
+      "price": 16,
+      "priceNote": { "ca": "½ menú (un plat, beguda i postres): 12 €", "es": "½ menú (un plato, bebida y postre): 12 €" },
+      "courses": [
+        { "ca": "Sopa, caneló o macarrons", "es": "Sopa, canelón o macarrones" },
+        { "ca": "Escalopa, pollastre o botifarra", "es": "Escalope, pollo o butifarra" },
+        { "ca": "Gelat d’ametlla o iogurt natural", "es": "Helado de almendra o yogur natural" },
+        { "ca": "Aigua mineral o refresc", "es": "Agua mineral o refresco" }
+      ]
+    }
+  ],
+  "groups": {
+    "title": { "ca": "Menús per a grups", "es": "Menús para grupos" },
+    "intro": {
+      "ca": "Celebracions familiars, àpats amb amics o dinars d’empresa, amb menús pensats per compartir.",
+      "es": "Celebraciones familiares, comidas con amigos o de empresa, con menús pensados para compartir."
+    },
+    "names": ["Masia", "Tardor", "Estiu", "Selecte", "Especial"],
+    "conditions": [
+      { "ca": "Mínim 10 comensals.", "es": "Mínimo 10 comensales." },
+      { "ca": "Només amb reserva prèvia, indicant el menú en fer la reserva.", "es": "Solo con reserva previa, indicando el menú al reservar." },
+      { "ca": "Cal confirmar els segons plats i les postres una setmana abans.", "es": "Hay que confirmar los segundos y los postres una semana antes." },
+      { "ca": "Per canviar les postres per un pastís de pastisseria, consulteu-ho abans.", "es": "Para cambiar el postre por una tarta de pastelería, consultadlo antes." }
+    ]
+  },
+  "spaces": [
+    { "ca": "La Gespa", "es": "El Césped" },
+    { "ca": "El Jardí", "es": "El Jardín" },
+    { "ca": "La Carpa", "es": "La Carpa" },
+    { "ca": "El Celler", "es": "La Bodega" },
+    { "ca": "L’Altell", "es": "El Altillo" },
+    { "ca": "Menjador sota l’altell", "es": "Comedor bajo el altillo" },
+    { "ca": "Menjador nou", "es": "Comedor nuevo" },
+    { "ca": "Menjador petit reservat", "es": "Comedor pequeño reservado" },
+    { "ca": "Bungalow", "es": "Bungalow" },
+    { "ca": "Parc infantil", "es": "Parque infantil" },
+    { "ca": "Mini bàsquet i mini futbol", "es": "Mini básquet y mini fútbol" }
+  ],
+  "celebrations": [
+    { "ca": "Noces", "es": "Bodas" },
+    { "ca": "Comunions", "es": "Comuniones" },
+    { "ca": "Bateigs", "es": "Bautizos" },
+    { "ca": "Dinars d’empresa", "es": "Comidas de empresa" }
+  ]
+}

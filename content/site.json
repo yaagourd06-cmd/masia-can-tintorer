@@ -1,0 +1,65 @@
+{
+  "name": "Masia Restaurant Can Tintorer",
+  "shortName": "Can Tintorer",
+  "baseUrl": "https://yaagourd06-cmd.github.io/masia-can-tintorer",
+  "productionUrl": "https://www.cantintorer.com",
+  "preview": true,
+  "founded": 1969,
+  "defaultLang": "ca",
+  "langs": ["ca", "es"],
+  "contact": {
+    "phone": "+34936681394",
+    "phoneDisplay": "936 68 13 94",
+    "mobile": "+34660612770",
+    "mobileDisplay": "660 61 27 70",
+    "email": "info@cantintorer.com"
+  },
+  "address": {
+    "street": "Camí de Can Tintorer, s/n",
+    "postalCode": "08750",
+    "locality": "Molins de Rei",
+    "region": "Barcelona",
+    "country": "ES",
+    "gpsDisplay": "N 41º 25,267´ E 2º 02,577´"
+  },
+  "geo": { "lat": 41.421117, "lng": 2.04295 },
+  "social": {
+    "instagram": "https://www.instagram.com/can_tintorer/"
+  },
+  "legal": {
+    "company": "RESTAURANT CAMI DE LES TRES FONTS S.L.",
+    "taxId": "B66141524",
+    "registeredAddress": "Avda. Constitució 181 local, 08860 Castelldefels",
+    "email": "info@cantintorer.com",
+    "phone": "93 668 13 94"
+  },
+  "hours": {
+    "timezone": "Europe/Madrid",
+    "week": {
+      "mon": [],
+      "tue": [],
+      "wed": [["10:00", "17:00"]],
+      "thu": [["10:00", "17:00"]],
+      "fri": [["09:00", "17:00"], ["20:00", "24:00"]],
+      "sat": [["09:00", "17:00"], ["20:00", "24:00"]],
+      "sun": [["09:00", "19:00"]]
+    },
+    "closedExceptHolidays": ["mon", "tue"]
+  },
+  "booking": {
+    "endpoint": "",
+    "slotMinutes": 30,
+    "lunch": { "from": "13:00", "lastSeating": "15:30" },
+    "dinner": { "from": "20:30", "lastSeating": "22:30" },
+    "maxDaysAhead": 120
+  },
+  "maps": {
+    "embedApiKey": "",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=41.421117,2.04295"
+  },
+  "award": {
+    "name": "Joc de Cartes",
+    "broadcaster": "3Cat",
+    "year": 2024
+  }
+}

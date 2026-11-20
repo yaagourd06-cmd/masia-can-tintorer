@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "id": "legal",
+      "slug": { "ca": "avis-legal", "es": "aviso-legal" },
+      "title": { "ca": "Avís legal", "es": "Aviso legal" },
+      "sections": [
+        {
+          "h": { "ca": "Titular del lloc web", "es": "Titular del sitio web" },
+          "p": [
+            { "ca": "En compliment de l’article 10 de la Llei 34/2002, de serveis de la societat de la informació i de comerç electrònic (LSSI-CE), s’informa que aquest lloc web és titularitat de {company}, amb NIF {taxId} i domicili social a {registeredAddress}. Nom comercial: {shortName}.", "es": "En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de que este sitio web es titularidad de {company}, con NIF {taxId} y domicilio social en {registeredAddress}. Nombre comercial: {shortName}." },
+            { "ca": "Contacte: {email} · {phone}.", "es": "Contacto: {email} · {phone}." }
+          ]
+        },
+        {
+          "h": { "ca": "Condicions d’ús", "es": "Condiciones de uso" },
+          "p": [
+            { "ca": "L’accés al lloc web és gratuït i implica l’acceptació d’aquestes condicions. La informació sobre cartes, menús, preus i horaris és orientativa i pot canviar; la reserva només és ferma quan el restaurant la confirma.", "es": "El acceso al sitio web es gratuito e implica la aceptación de estas condiciones. La información sobre cartas, menús, precios y horarios es orientativa y puede cambiar; la reserva solo es firme cuando el restaurante la confirma." }
+          ]
+        },
+        {
+          "h": { "ca": "Propietat intel·lectual", "es": "Propiedad intelectual" },
+          "p": [
+            { "ca": "Els textos, logotips i dissenys d’aquest lloc pertanyen al titular o compten amb llicència d’ús. No se’n permet la reproducció sense autorització.", "es": "Los textos, logotipos y diseños de este sitio pertenecen al titular o cuentan con licencia de uso. No se permite su reproducción sin autorización." }
+          ]
+        },
+        {
+          "h": { "ca": "Enllaços externs", "es": "Enlaces externos" },
+          "p": [
+            { "ca": "Aquest lloc pot enllaçar a webs de tercers (xarxes socials, Google Maps). El titular no es fa responsable del seu contingut.", "es": "Este sitio puede enlazar a webs de terceros (redes sociales, Google Maps). El titular no se responsabiliza de su contenido." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "slug": { "ca": "politica-de-privacitat", "es": "politica-de-privacidad" },
+      "title": { "ca": "Política de privacitat", "es": "Política de privacidad" },
+      "sections": [
+        {
+          "h": { "ca": "Responsable del tractament", "es": "Responsable del tratamiento" },
+          "p": [
+            { "ca": "{company} (NIF {taxId}), {registeredAddress}. Correu de contacte per a qüestions de privacitat: {email}.", "es": "{company} (NIF {taxId}), {registeredAddress}. Correo de contacto para cuestiones de privacidad: {email}." }
+          ]
+        },
+        {
+          "h": { "ca": "Quines dades tractem i per a què", "es": "Qué datos tratamos y para qué" },
+          "p": [
+            { "ca": "Amb el formulari de reserva recollim nom, correu electrònic, telèfon, data, hora, nombre de persones i els comentaris que hi afegeixis. Les fem servir únicament per gestionar la teva sol·licitud de reserva i contactar-te per confirmar-la.", "es": "Con el formulario de reserva recogemos nombre, correo electrónico, teléfono, fecha, hora, número de personas y los comentarios que añadas. Los usamos únicamente para gestionar tu solicitud de reserva y contactarte para confirmarla." },
+            { "ca": "Si als comentaris ens indiques al·lèrgies o intoleràncies, les tractarem només per adaptar el servei i amb el teu consentiment explícit.", "es": "Si en los comentarios nos indicas alergias o intolerancias, las trataremos solo para adaptar el servicio y con tu consentimiento explícito." }
+          ]
+        },
+        {
+          "h": { "ca": "Base legal i conservació", "es": "Base legal y conservación" },
+          "p": [
+            { "ca": "La base legal és el teu consentiment i l’aplicació de mesures precontractuals a petició teva (art. 6.1.a i 6.1.b del RGPD). Conservem les dades el temps necessari per gestionar la reserva i, després, durant els terminis legals aplicables.", "es": "La base legal es tu consentimiento y la aplicación de medidas precontractuales a petición tuya (art. 6.1.a y 6.1.b del RGPD). Conservamos los datos el tiempo necesario para gestionar la reserva y, después, durante los plazos legales aplicables." }
+          ]
+        },
+        {
+          "h": { "ca": "Destinataris", "es": "Destinatarios" },
+          "p": [
+            { "ca": "No cedim les dades a tercers, excepte obligació legal o el proveïdor que rep el formulari en qualitat d’encarregat del tractament.", "es": "No cedemos los datos a terceros, salvo obligación legal o el proveedor que recibe el formulario como encargado del tratamiento." }
+          ]
+        },
+        {
+          "h": { "ca": "Els teus drets", "es": "Tus derechos" },
+          "p": [
+            { "ca": "Pots exercir els drets d’accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a {email}. Si consideres que no hem atès correctament la teva sol·licitud, pots reclamar davant l’Agència Espanyola de Protecció de Dades (aepd.es).", "es": "Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a {email}. Si consideras que no hemos atendido correctamente tu solicitud, puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es)." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "slug": { "ca": "politica-de-cookies", "es": "politica-de-cookies" },
+      "title": { "ca": "Política de cookies", "es": "Política de cookies" },
+      "sections": [
+        {
+          "h": { "ca": "Aquest lloc no instal·la cookies pròpies", "es": "Este sitio no instala cookies propias" },
+          "p": [
+            { "ca": "La web no utilitza cookies d’analítica ni de publicitat. Les tipografies i les imatges s’allotgen al mateix servidor, de manera que en navegar no es fan peticions a tercers.", "es": "La web no utiliza cookies de analítica ni de publicidad. Las tipografías y las imágenes se alojan en el mismo servidor, de modo que al navegar no se hacen peticiones a terceros." }
+          ]
+        },
+        {
+          "h": { "ca": "Contingut de tercers amb consentiment previ", "es": "Contenido de terceros con consentimiento previo" },
+          "p": [
+            { "ca": "El mapa de Google Maps no es carrega fins que l’acceptes amb el botó corresponent. En carregar-lo, Google pot instal·lar les seves pròpies cookies segons la seva política de privacitat (policies.google.com).", "es": "El mapa de Google Maps no se carga hasta que lo aceptas con el botón correspondiente. Al cargarlo, Google puede instalar sus propias cookies según su política de privacidad (policies.google.com)." }
+          ]
+        }
+      ]
+    }
+  ]
+}
