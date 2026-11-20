@@ -1,0 +1,128 @@
+{
+  "lang": "es",
+  "locale": "es_ES",
+  "langName": "Castellano",
+  "meta": {
+    "title": "Masia Restaurant Can Tintorer · Cocina catalana en Molins de Rei",
+    "description": "Cocina tradicional catalana, brasa y horno de leña en una masía del Parque Natural de Collserola, en Molins de Rei. Desde 1969."
+  },
+  "skip": "Saltar al contenido",
+  "preview": "Vista previa · propuesta de web, no es la web oficial",
+  "nav": {
+    "label": "Principal",
+    "open": "Abrir el menú",
+    "close": "Cerrar el menú",
+    "history": "La masía",
+    "carta": "Carta",
+    "menus": "Menús",
+    "spaces": "Espacios",
+    "visit": "Horario y cómo llegar",
+    "book": "Reservar mesa",
+    "langSwitch": "Català"
+  },
+  "hero": {
+    "kicker": "Molins de Rei · Parque Natural de Collserola",
+    "title": "Can Tintorer",
+    "subtitle": "Cocina tradicional catalana con producto de proximidad, en una masía rodeada de naturaleza.",
+    "since": "Masía · desde 1969",
+    "ctaBook": "Reservar mesa",
+    "ctaCarta": "Ver la carta",
+    "todayOpen": "Hoy abierto",
+    "todayClosed": "Hoy cerrado",
+    "and": "y"
+  },
+  "history": {
+    "kicker": "Nuestra historia",
+    "title": "Una masía con historia viva",
+    "p1": "Can Tintorer es una masía de Molins de Rei, dentro del Parque Natural de Collserola, con más de siete siglos de historia documentada. En el siglo XIII ya aparece vinculada al linaje Miramat y, a partir del siglo XVII, pasa a manos de la familia Tintorer, que lo dejó grabado en la piedra: Isidre Tintorer (1675) y Fèlix Tintorer (1697).",
+    "p2": "A principios de los setenta, Josep Tintorer i Paradís y Pilar Alcalà i Rudi convirtieron la masía en restaurante. Hoy Miquel Tintorer Alcalà, con el apoyo imprescindible de Mª Carmen Jaso, mantiene viva el alma de la casa.",
+    "facts": [
+      { "value": "s. XIII", "label": "Primeras referencias documentadas" },
+      { "value": "1969", "label": "Masía restaurante" },
+      { "value": "2024", "label": "Ganador de Joc de Cartes" }
+    ]
+  },
+  "carta": {
+    "kicker": "La carta",
+    "title": "Platos de siempre, brasa y temporada",
+    "tablist": "Secciones de la carta",
+    "extras": "Salsas y extras"
+  },
+  "award": {
+    "kicker": "Ganador · Joc de Cartes",
+    "title": "El mejor restaurante del Parque Natural de Collserola",
+    "text": "Can Tintorer ganó el programa «Joc de Cartes» de 3Cat, donde la crêpe suzette recibió el premio al plato estrella. Entre los platos emblemáticos de la casa: los calçots a la brasa y el cordero al horno de leña."
+  },
+  "menus": {
+    "kicker": "Menús",
+    "title": "Para cada ocasión",
+    "perPerson": "por persona",
+    "groupsCta": "Pide los menús de grupo"
+  },
+  "spaces": {
+    "kicker": "Espacios y celebraciones",
+    "title": "Una masía para celebrarlo",
+    "text": "Interiores de piedra y vigas originales, jardín y césped al aire libre. Preparamos bodas, comuniones, bautizos y comidas de empresa a medida.",
+    "spacesTitle": "Nuestros espacios",
+    "celebrationsTitle": "Celebraciones"
+  },
+  "visit": {
+    "kicker": "Visítanos",
+    "title": "Horario y cómo llegar",
+    "hoursTitle": "Horario",
+    "closed": "Cerrado",
+    "closedExceptHolidays": "Lunes y martes cerrado, excepto festivos.",
+    "addressTitle": "Dónde estamos",
+    "gps": "GPS",
+    "directions": "Cómo llegar",
+    "mapTitle": "Mapa de situación",
+    "mapConsent": "El mapa se carga desde Google Maps, que puede instalar cookies y recibir tu dirección IP. Solo se cargará si lo aceptas.",
+    "mapLoad": "Cargar el mapa",
+    "mapNoKey": "Abrir la ubicación en Google Maps",
+    "days": { "mon": "Lunes", "tue": "Martes", "wed": "Miércoles", "thu": "Jueves", "fri": "Viernes", "sat": "Sábado", "sun": "Domingo" }
+  },
+  "booking": {
+    "kicker": "Reservas",
+    "title": "Reserva tu mesa",
+    "intro": "Envíanos la solicitud y te confirmaremos la reserva por teléfono o correo.",
+    "disclaimer": "Enviar el formulario no garantiza la reserva: la confirmaremos cuando nuestro equipo haya validado la disponibilidad.",
+    "call": "Llámanos",
+    "whatsapp": "Móvil y WhatsApp",
+    "write": "Escríbenos",
+    "name": "Nombre y apellidos",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "date": "Fecha",
+    "time": "Hora",
+    "timePlaceholder": "Elige primero la fecha",
+    "people": "Personas",
+    "occasion": "Motivo",
+    "occasions": ["Comida o cena", "Calçotada", "Menú de grupo", "Celebración"],
+    "comments": "Comentarios",
+    "commentsHint": "Alergias, trona, menú de grupo…",
+    "privacy": "He leído y acepto la",
+    "privacyLink": "política de privacidad",
+    "submit": "Enviar la solicitud",
+    "closedDay": "Ese día el restaurante está cerrado (excepto festivos). Llámanos para festivos.",
+    "pastDate": "Elige una fecha a partir de hoy.",
+    "required": "Revisa los campos marcados.",
+    "sent": "¡Gracias! Hemos recibido tu solicitud y te contactaremos para confirmarla.",
+    "demo": "Vista previa: el formulario aún no está conectado y no se ha enviado nada. Para reservar, llama al 936 68 13 94.",
+    "error": "No se ha podido enviar. Vuelve a intentarlo o llámanos.",
+    "lunch": "Comida",
+    "dinner": "Cena"
+  },
+  "footer": {
+    "legal": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "rights": "Todos los derechos reservados.",
+    "photos": "Fotografías de stock de Unsplash en la vista previa."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o se ha movido.",
+    "back": "Volver al inicio"
+  },
+  "legalDraft": "Borrador basado en los datos del aviso legal actual. Pendiente de revisión jurídica antes de publicar."
+}

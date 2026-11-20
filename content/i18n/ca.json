@@ -1,0 +1,128 @@
+{
+  "lang": "ca",
+  "locale": "ca_ES",
+  "langName": "Català",
+  "meta": {
+    "title": "Masia Restaurant Can Tintorer · Cuina catalana a Molins de Rei",
+    "description": "Cuina tradicional catalana, brasa i forn de llenya en una masia del Parc Natural de Collserola, a Molins de Rei. Des del 1969."
+  },
+  "skip": "Salta al contingut",
+  "preview": "Vista prèvia · proposta de web, no és la web oficial",
+  "nav": {
+    "label": "Principal",
+    "open": "Obre el menú",
+    "close": "Tanca el menú",
+    "history": "La masia",
+    "carta": "Carta",
+    "menus": "Menús",
+    "spaces": "Espais",
+    "visit": "Horari i com arribar",
+    "book": "Reserva taula",
+    "langSwitch": "Castellano"
+  },
+  "hero": {
+    "kicker": "Molins de Rei · Parc Natural de Collserola",
+    "title": "Can Tintorer",
+    "subtitle": "Cuina tradicional catalana amb producte de proximitat, en una masia envoltada de natura.",
+    "since": "Masia · des del 1969",
+    "ctaBook": "Reserva taula",
+    "ctaCarta": "Veure la carta",
+    "todayOpen": "Avui obert",
+    "todayClosed": "Avui tancat",
+    "and": "i"
+  },
+  "history": {
+    "kicker": "La nostra història",
+    "title": "Una masia amb història viva",
+    "p1": "Can Tintorer és una masia de Molins de Rei, dins del Parc Natural de Collserola, amb més de set segles d’història documentada. Al segle XIII ja apareix vinculada al llinatge Miramat i, a partir del segle XVII, passa a mans de la família Tintorer, que en deixa constància a la pedra: Isidre Tintorer (1675) i Fèlix Tintorer (1697).",
+    "p2": "A principis dels setanta, Josep Tintorer i Paradís i Pilar Alcalà i Rudi van transformar la masia en restaurant. Avui Miquel Tintorer Alcalà, amb el suport imprescindible de Mª Carmen Jaso, manté viva l’ànima del mas.",
+    "facts": [
+      { "value": "s. XIII", "label": "Primeres referències documentades" },
+      { "value": "1969", "label": "Masia restaurant" },
+      { "value": "2024", "label": "Guanyador de Joc de Cartes" }
+    ]
+  },
+  "carta": {
+    "kicker": "La carta",
+    "title": "Plats de sempre, brasa i temporada",
+    "tablist": "Seccions de la carta",
+    "extras": "Salses i extres"
+  },
+  "award": {
+    "kicker": "Guanyador · Joc de Cartes",
+    "title": "El millor restaurant del Parc Natural de Collserola",
+    "text": "Can Tintorer va guanyar el programa «Joc de Cartes» de 3Cat, on la crêpe suzette va rebre el premi al plat estrella. Entre els plats emblemàtics de la casa: els calçots a la brasa i el xai al forn de llenya."
+  },
+  "menus": {
+    "kicker": "Menús",
+    "title": "Per a cada ocasió",
+    "perPerson": "per persona",
+    "groupsCta": "Demana els menús de grup"
+  },
+  "spaces": {
+    "kicker": "Espais i celebracions",
+    "title": "Una masia per celebrar-ho",
+    "text": "Interiors de pedra i bigues originals, jardí i gespa a l’aire lliure. Preparem noces, comunions, bateigs i dinars d’empresa a mida.",
+    "spacesTitle": "Els nostres espais",
+    "celebrationsTitle": "Celebracions"
+  },
+  "visit": {
+    "kicker": "Visita’ns",
+    "title": "Horari i com arribar",
+    "hoursTitle": "Horari",
+    "closed": "Tancat",
+    "closedExceptHolidays": "Dilluns i dimarts tancat, excepte festius.",
+    "addressTitle": "On som",
+    "gps": "GPS",
+    "directions": "Com arribar",
+    "mapTitle": "Mapa de situació",
+    "mapConsent": "El mapa es carrega des de Google Maps, que pot instal·lar cookies i rebre la teva adreça IP. Només es carregarà si ho acceptes.",
+    "mapLoad": "Carrega el mapa",
+    "mapNoKey": "Obre la ubicació a Google Maps",
+    "days": { "mon": "Dilluns", "tue": "Dimarts", "wed": "Dimecres", "thu": "Dijous", "fri": "Divendres", "sat": "Dissabte", "sun": "Diumenge" }
+  },
+  "booking": {
+    "kicker": "Reserves",
+    "title": "Reserva la teva taula",
+    "intro": "Envia’ns la sol·licitud i et confirmarem la reserva per telèfon o correu.",
+    "disclaimer": "Enviar el formulari no garanteix la reserva: la confirmarem quan el nostre equip hagi validat la disponibilitat.",
+    "call": "Truca’ns",
+    "whatsapp": "Mòbil i WhatsApp",
+    "write": "Escriu-nos",
+    "name": "Nom i cognoms",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "date": "Data",
+    "time": "Hora",
+    "timePlaceholder": "Tria primer la data",
+    "people": "Persones",
+    "occasion": "Motiu",
+    "occasions": ["Dinar o sopar", "Calçotada", "Menú de grup", "Celebració"],
+    "comments": "Comentaris",
+    "commentsHint": "Al·lèrgies, cadira per a nadó, menú de grup…",
+    "privacy": "He llegit i accepto la",
+    "privacyLink": "política de privacitat",
+    "submit": "Envia la sol·licitud",
+    "closedDay": "Aquest dia el restaurant és tancat (excepte festius). Truca’ns per a festius.",
+    "pastDate": "Tria una data a partir d’avui.",
+    "required": "Revisa els camps marcats.",
+    "sent": "Gràcies! Hem rebut la teva sol·licitud i et contactarem per confirmar-la.",
+    "demo": "Vista prèvia: el formulari encara no està connectat i no s’ha enviat res. Per reservar, truca al 936 68 13 94.",
+    "error": "No s’ha pogut enviar. Torna-ho a provar o truca’ns.",
+    "lunch": "Dinar",
+    "dinner": "Sopar"
+  },
+  "footer": {
+    "legal": "Avís legal",
+    "privacy": "Política de privacitat",
+    "cookies": "Política de cookies",
+    "rights": "Tots els drets reservats.",
+    "photos": "Fotografies d’estoc d’Unsplash a la vista prèvia."
+  },
+  "notFound": {
+    "title": "Pàgina no trobada",
+    "text": "La pàgina que busques no existeix o s’ha mogut.",
+    "back": "Torna a l’inici"
+  },
+  "legalDraft": "Esborrany basat en les dades de l’avís legal actual. Pendent de revisió jurídica abans de publicar."
+}
