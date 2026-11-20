@@ -91,7 +91,7 @@ export function layout(ctx, { title, description, slug = '', body, jsonLd, prelo
     "font-src 'self'",
     "script-src 'self'",
     `connect-src 'self'${ctx.formOrigin ? ` ${ctx.formOrigin}` : ''}`,
-    `form-action 'self' mailto:${ctx.formOrigin ? ` ${ctx.formOrigin}` : ''}`,
+    `form-action 'self'${ctx.formOrigin ? ` ${ctx.formOrigin}` : ''}`,
     'frame-src https://www.google.com',
     "base-uri 'self'",
     "object-src 'none'",

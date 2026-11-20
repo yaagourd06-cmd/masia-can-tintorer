@@ -114,7 +114,9 @@ function bookingForm(ctx) {
   const b = site.booking;
   const lunch = slots(b.lunch.from, b.lunch.lastSeating, b.slotMinutes);
   const dinner = slots(b.dinner.from, b.dinner.lastSeating, b.slotMinutes);
-  const endpoint = b.endpoint || `mailto:${site.contact.email}`;
+  // Sense servei de formularis configurat no hi ha destinació: el formulari depèn del JS i
+  // es mostra un avís <noscript> amb el telèfon (evitem mailto:, que el navegador marca com a insegur).
+  const endpoint = b.endpoint || null;
   const field = (id, label, input, hint) => html`
     <div class="field">
       <label class="field__label" for="${id}">${label}</label>
@@ -122,7 +124,8 @@ function bookingForm(ctx) {
       ${hint ? html`<p class="field__hint" id="${id}-hint">${hint}</p>` : ''}
     </div>`;
   return html`
-  <form class="booking-form" id="booking-form" action="${endpoint}" method="post"${attrs({ enctype: b.endpoint ? null : 'text/plain' })} novalidate data-booking${attrs({ 'data-demo': site.preview && !b.endpoint })}>
+  <form class="booking-form" id="booking-form"${attrs({ action: endpoint })} method="post" novalidate data-booking${attrs({ 'data-demo': site.preview && !b.endpoint })}>
+    ${endpoint ? '' : html`<noscript><p class="booking-form__status">${t.booking.demo}</p></noscript>`}
     <div class="booking-form__row">
       ${field('bk-name', t.booking.name, html`<input class="field__input" id="bk-name" name="name" type="text" autocomplete="name" required>`)}
       ${field('bk-phone', t.booking.phone, html`<input class="field__input" id="bk-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>`)}
