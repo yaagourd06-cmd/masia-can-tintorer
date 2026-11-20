@@ -1,0 +1,258 @@
+@layer components {
+  /* --- Enllaç per saltar al contingut i bàner de vista prèvia --- */
+  .skip-link {
+    position: absolute;
+    inset-inline-start: var(--space-s);
+    inset-block-start: var(--space-s);
+    z-index: 100;
+    padding: var(--space-xs) var(--space-s);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    transform: translateY(-200%);
+  }
+  .skip-link:focus { transform: none; }
+
+  .preview-banner {
+    padding: var(--space-xs) var(--space-s);
+    background: var(--color-olive);
+    color: var(--color-cream);
+    font-size: var(--step--1);
+    text-align: center;
+  }
+
+  /* --- Capçalera: sticky dins del flux, sense valors màgics --- */
+  .site-header {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 50;
+    background: rgb(31 27 23 / 0.96);
+    color: var(--color-cream);
+    border-bottom: 1px solid var(--color-line-light);
+  }
+  @supports (backdrop-filter: blur(8px)) {
+    .site-header { background: rgb(31 27 23 / 0.86); backdrop-filter: blur(8px); }
+  }
+  .site-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-s);
+    min-height: 4.5rem;
+  }
+
+  .brand { display: inline-flex; flex-direction: column; line-height: 1; text-decoration: none; }
+  .brand__kicker { font-size: 0.68rem; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.8; }
+  .brand__name { font-family: var(--font-serif); font-size: 1.75rem; font-weight: 500; }
+
+  .site-header__toggle {
+    display: inline-grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    border: 1px solid var(--color-line-light);
+    border-radius: var(--radius);
+    background: transparent;
+    cursor: pointer;
+  }
+  .site-header__toggle-bar,
+  .site-header__toggle-bar::before,
+  .site-header__toggle-bar::after {
+    display: block;
+    width: 1.25rem;
+    height: 2px;
+    background: currentColor;
+    transition: transform 0.25s var(--ease-out), opacity 0.2s;
+  }
+  .site-header__toggle-bar { position: relative; }
+  .site-header__toggle-bar::before,
+  .site-header__toggle-bar::after { content: ''; position: absolute; inset-inline-start: 0; }
+  .site-header__toggle-bar::before { transform: translateY(-6px); }
+  .site-header__toggle-bar::after { transform: translateY(6px); }
+  .site-header__toggle[aria-expanded='true'] .site-header__toggle-bar { background: transparent; }
+  .site-header__toggle[aria-expanded='true'] .site-header__toggle-bar::before { transform: rotate(45deg); }
+  .site-header__toggle[aria-expanded='true'] .site-header__toggle-bar::after { transform: rotate(-45deg); }
+
+  .site-nav { flex-basis: 100%; }
+  .site-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs) var(--space-m);
+    align-items: center;
+    padding-block: var(--space-xs) var(--space-s);
+  }
+  .site-nav__link {
+    display: inline-block;
+    padding-block: var(--space-2xs);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .site-nav__link:hover { color: var(--color-gold); }
+
+  /* Amb JS i pantalla estreta, el menú es plega darrere del botó */
+  @media (max-width: 63.99em) {
+    .site-nav[data-collapsible] { display: none; }
+    .site-nav[data-collapsible][data-open] { display: block; }
+    .site-nav[data-collapsible] .site-nav__list { flex-direction: column; align-items: flex-start; padding-block: var(--space-s) var(--space-m); }
+  }
+  @media (min-width: 64em) {
+    .site-header__toggle { display: none; }
+    .site-nav { flex-basis: auto; }
+    .site-nav__list { padding: 0; gap: var(--space-m); }
+  }
+
+  /* --- Botons --- */
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+    min-height: 2.9rem;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+  }
+  .button--primary { background: var(--color-terracotta); color: #fff; }
+  .button--primary:hover { background: var(--color-terracotta-dark); }
+  .button--dark { background: var(--color-night); color: var(--color-cream); }
+  .button--dark:hover { background: var(--color-terracotta); }
+  .button--ghost { border-color: currentColor; background: transparent; }
+  .button--ghost:hover { background: var(--color-cream); color: var(--color-night); }
+
+  /* --- Text --- */
+  .eyebrow {
+    margin-bottom: var(--space-s);
+    color: var(--color-terracotta);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+  }
+  .section--dark .eyebrow,
+  .eyebrow--light { color: var(--color-gold); }
+  .section__title {
+    margin-bottom: var(--space-m);
+    font-family: var(--font-serif);
+    font-size: var(--step-3);
+    font-weight: 500;
+    line-height: 1.05;
+    text-wrap: balance;
+  }
+  .lead { max-width: 60ch; color: var(--color-ink-soft); }
+  .lead + .lead { margin-top: var(--space-s); }
+  .section--dark .lead { color: rgb(245 238 227 / 0.75); }
+  .subhead {
+    margin-block: var(--space-l) var(--space-s);
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    font-weight: 600;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    font-size: var(--step--1);
+  }
+  .tag-list { display: flex; flex-wrap: wrap; gap: var(--space-xs); }
+
+  /* --- Pestanyes (millora progressiva: sense JS es veuen tots els panells) --- */
+  .tabs__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-l);
+  }
+  .tabs__list[hidden] { display: none; }
+  .tabs__tab {
+    padding: 0.7rem 1.3rem;
+    border: 1px solid var(--color-line-light);
+    border-radius: var(--radius);
+    background: transparent;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .tabs__tab:hover { border-color: var(--color-gold); }
+  .tabs__tab[aria-selected='true'] { background: var(--color-gold); border-color: var(--color-gold); color: var(--color-night); }
+  .tabs__panel + .tabs__panel { margin-top: var(--space-xl); }
+  [data-tabs-ready] .tabs__panel + .tabs__panel { margin-top: 0; }
+
+  /* --- Llista de plats --- */
+  .dish-list { display: grid; gap: 0; }
+  .dish {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: var(--space-s);
+    padding-block: 0.85rem;
+    border-bottom: 1px dashed var(--color-line-light);
+  }
+  .dish__name { font-family: var(--font-serif); font-size: var(--step-1); font-weight: 500; line-height: 1.2; }
+  .dish__price { font-family: var(--font-serif); font-size: var(--step-1); color: var(--color-gold); white-space: nowrap; }
+  .dish__desc { grid-column: 1 / -1; font-size: var(--step--1); color: rgb(245 238 227 / 0.65); font-style: italic; }
+  .dish-list--inline { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); column-gap: var(--space-l); }
+
+  /* --- Formulari --- */
+  .field { display: grid; gap: var(--space-2xs); }
+  .field__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-ink-soft); }
+  .field__label--inline { font-size: var(--step--1); letter-spacing: normal; text-transform: none; font-weight: 400; color: var(--color-ink); }
+  .field__input {
+    width: 100%;
+    min-height: 2.9rem;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    background: var(--color-paper);
+  }
+  .field__input:focus-visible { border-color: var(--color-terracotta); outline-offset: 1px; }
+  .field__input[aria-invalid='true'] { border-color: var(--color-terracotta-dark); background: #fbefe9; }
+  .field__input--area { min-height: 6rem; resize: vertical; }
+  .field__hint { font-size: var(--step--1); color: var(--color-ink-soft); }
+  .field--check { grid-template-columns: auto 1fr; align-items: start; gap: var(--space-xs); }
+  .field__check { width: 1.15rem; height: 1.15rem; margin-top: 0.2rem; accent-color: var(--color-terracotta); }
+  .field--trap { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); }
+
+  /* --- Mapa amb consentiment --- */
+  .map {
+    position: relative;
+    display: grid;
+    min-height: 20rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--color-night-soft);
+  }
+  .map__placeholder { display: grid; place-content: center; justify-items: center; gap: var(--space-s); padding: var(--space-l); text-align: center; }
+  .map__text { max-width: 36ch; font-size: var(--step--1); color: rgb(245 238 227 / 0.75); }
+  .map__frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+  /* --- Peu --- */
+  .site-footer { padding-block: var(--space-xl) var(--space-l); background: var(--color-night); color: rgb(245 238 227 / 0.75); }
+  .site-footer__inner { display: grid; gap: var(--space-m); justify-items: center; text-align: center; }
+  .site-footer__brand { display: flex; flex-direction: column; color: var(--color-cream); }
+  .site-footer__brand .brand__name { font-size: 2.4rem; }
+  .site-footer__address { font-style: normal; }
+  .site-footer__links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-xs) var(--space-m); font-size: var(--step--1); }
+  .site-footer__links a:hover { color: var(--color-gold); }
+  .site-footer__meta { font-size: 0.8rem; opacity: 0.7; }
+
+  /* --- Aparició en fer scroll: només amb JS i si l'usuari accepta moviment --- */
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal--pending { opacity: 0; transform: translateY(2rem); }
+    .reveal--in { opacity: 1; transform: none; transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); }
+  }
+}

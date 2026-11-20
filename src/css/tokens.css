@@ -1,0 +1,44 @@
+/* Ordre de capes: les posteriors guanyen independentment de l'especificitat */
+@layer reset, base, layout, components, sections, utilities;
+
+:root {
+  /* Color */
+  --color-cream: #f5eee3;
+  --color-paper: #fbf7f1;
+  --color-sand: #ece2d3;
+  --color-terracotta: #a8492a;
+  --color-terracotta-dark: #86381f;
+  --color-olive: #4f5a31;
+  --color-gold: #d4b07a;
+  --color-ink: #231f1b;
+  --color-ink-soft: #5f564d;
+  --color-night: #1f1b17;
+  --color-night-soft: #2b2622;
+  --color-line: rgb(35 31 27 / 0.14);
+  --color-line-light: rgb(245 238 227 / 0.16);
+
+  /* Tipografia */
+  --font-serif: 'Cormorant Garamond', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --step--1: clamp(0.83rem, 0.8rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.1rem);
+  --step-1: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --step-2: clamp(1.6rem, 1.4rem + 1vw, 2.2rem);
+  --step-3: clamp(2.2rem, 1.8rem + 2vw, 3.4rem);
+  --step-4: clamp(3rem, 2.2rem + 4vw, 6rem);
+
+  /* Espai */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.5rem;
+  --space-xl: 4rem;
+  --space-section: clamp(4.5rem, 3rem + 6vw, 8rem);
+
+  --radius: 4px;
+  --container: 76rem;
+  --container-narrow: 46rem;
+  --header-height: 4.5rem; /* valor inicial; main.js el mesura amb ResizeObserver */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

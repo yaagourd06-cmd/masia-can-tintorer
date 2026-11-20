@@ -1,0 +1,32 @@
+/* Reset mínim, amb :where() per no afegir especificitat */
+@layer reset {
+  :where(*, *::before, *::after) { box-sizing: border-box; }
+  :where(body, h1, h2, h3, h4, p, figure, dl, dd, ul, ol) { margin: 0; }
+  :where(ul[role='list'], ol[role='list']) { list-style: none; padding: 0; }
+  :where(img) { display: block; max-width: 100%; height: auto; }
+  :where(input, button, select, textarea) { font: inherit; color: inherit; }
+  :where(table) { border-collapse: collapse; }
+}
+
+@layer base {
+  :where(html) {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--header-height) + var(--space-s));
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    :where(html) { scroll-behavior: smooth; }
+  }
+  :where(body) {
+    font-family: var(--font-sans);
+    font-size: var(--step-0);
+    line-height: 1.6;
+    color: var(--color-ink);
+    background: var(--color-paper);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  :where(a) { color: inherit; text-underline-offset: 0.2em; }
+  :where(:focus-visible) { outline: 3px solid var(--color-gold); outline-offset: 3px; }
+  :where(main:focus) { outline: none; }
+}
