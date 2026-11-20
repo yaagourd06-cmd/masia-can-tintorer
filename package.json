@@ -1,0 +1,15 @@
+{
+  "name": "masia-can-tintorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proposta de web estàtica per a Masia Restaurant Can Tintorer (Molins de Rei)",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "assets": "node scripts/fetch-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/build.mjs && node scripts/check.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
