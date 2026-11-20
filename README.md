@@ -66,7 +66,7 @@ El pas següent natural és connectar aquests JSON a un CMS headless (Decap CMS 
 - Tots els camps amb `id`, `name`, `<label for>` i `autocomplete`; `type="tel"`, `type="email"`.
 - La data té `min` (avui, zona Europe/Madrid) i `max`; les hores disponibles es filtren segons l'horari del dia triat (sense sopars els dies que es tanca a les 17:00 o a les 19:00, i dilluns i dimarts tancat).
 - Casella obligatòria d'acceptació de la política de privacitat, camp parany antibot i missatges a una regió `aria-live`.
-- Sense backend: amb `booking.endpoint` buit el formulari fa servir `mailto:` (funciona sense JS). Per connectar-lo, posa l'URL d'un servei de formularis (p. ex. Formspree) a `site.json`; la CSP s'actualitza sola.
+- Sense backend: amb `booking.endpoint` buit el formulari no té destinació i, sense JS, mostra un avís amb el telèfon. Per connectar-lo, posa l'URL d'un servei de formularis (p. ex. Formspree) a `site.json`: el formulari passa a funcionar també sense JS i la CSP s'actualitza sola.
 
 **Rendiment i SEO**
 - Imatges WebP autoallotjades a 640/1024/1600 px (es baixen i es retallen al pipeline, no hi ha binaris al repositori) amb `srcset`, `sizes`, `width` i `height` (sense CLS). La imatge principal es precarrega amb `fetchpriority="high"`; la resta, `loading="lazy"`.
